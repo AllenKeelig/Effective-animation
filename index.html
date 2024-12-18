@@ -42,96 +42,50 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
-    <div class="container py-4">
-      <h1 class="display-6">
-        Traditional animation:
-      </h1>
-      <h2 class="display-6">
-        emphasizing keyframes over consistent aesthetic.
-      </h2>
-      <h1 class="display-6">
-        The Beauty and the Beast vs Belles Magical World'
-      </h1>
-      <div class="row mb-4">
-        <div class="col-md-6 order-2 order-md-1">
-          <p>
-            Beauty and the Beast is largely considered to have some of the best animation out of the Disney renaissance and a large part of it is the titular sequence and ballroom dance, a gorgeous shot showing a panorama of a large pan around spinning figures in a complex room, all things that are very hard to do in traditional animation. How Disney usually animates is the head animators will make key poses, a specially drawn frame every second or so and in between animators will draw around 11 frames connecting the key poses. the complications come with consistency between frames, rotation and spinning in 2d animation often doesn't hold consistency very well but Disney animations pulled this one off flawlessly
-          </p>
-        </div>
-        <div class="col-md-6 order-1 order-md-2">
-          <iframe src="https://giphy.com/embed/tGGqomlwZyI1i" class="w-100 h-100" allowFullScreen title="Ballroom"></iframe>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 order-2 order-md-1">
-          <p>
-            In the 2000s disney the company started outsourcing to a small bteam the job of making direct to dvd sequels. These movies were purely money making endeavors and so had very low budget and manpower, this meant that framerate went down and preparation, didn’t happen. There was no aesthetically pleasing keyposes or transitional in betweens and instead just a series of pictures meaning it would hold on frames that were, well stuff like this. this isn't a cherry picked example there's plenty more where this comes from, and they held on this frame for multiple seconds.
-          </p>
-        </div>
-        <div class="col-md-6 order-1 order-md-2">
-          <img src="images/dumbface.jpg" alt="BellesMagicalWorld" class="img-fluid">
-        </div>
-      </div>
-      <h1 class="display-6">
-        Fighting game animation:
-      </h1>
-      <h2 class="display-6">
-        practicality over isolated frames
-      </h2>
-      <h1 class="display-6">
-        Fatalities vs Melee
-      </h1>
-      <div class="row mb-4">
-        <div class="col-md-6 order-2 order-md-1">
-          <p>
-            In fighting games animation serves a purpose over looking good, you need to be able to tell if you hit or get hit by what is on the screen. Emphasizing too much on how an animation looks in an isolated environment can come in conflict with what happnens in a match. For reasons like this games like this hold off on impressing you until they can be sure they know whats happening, like the fatalities that happen after someone wins and another persons inputs a specific set of buttons
-          </p>
-          <div class="d-none d-md-block" style="height: 75px;"></div> <!--temporary measure to make the fatality look bigger, once we get to css styling replace it-->
-        </div>
-        <div class="col-md-6 order-1 order-md-2">
-          <iframe src="https://giphy.com/embed/Mkrv6hMDj7kcM" class="w-100 h-100" allowFullScreen title="Fatality"></iframe>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 order-2 order-md-1">
-          <p>
-            But when you don’t think of it you get stuff like melee marth grab. In this games community it has been memed to high hell about how long it is. But when the animation was shown in a public video alot of people didn’t believe it, because on its own it actually looks fine, the character leans forward and reaches out, but in real time the fully extended animation is only 1 frame, and if you hit someone on that frame it immediately pulls back making it look alot less reasonable than it actually is. Along with this confusing bit its at just the right height to hit other characters as they extend their limbs making it look even longer.
-          </p>
-        </div>
-        <div class="col-md-6 order-1 order-md-2">
-          <video src="images/marth_grab.mp4" playsinline poster="images/marth_grab_poster.jpg" preload="none" tabindex="-1" style="object-fit: contain;" autoplay muted loop title="marth grab"></video>
-        </div>
-      </div>
-      <h1 class="display-6">
-        Live Action CGI:
-      </h1>
-      <h2 class="display-6">
-        integration over realism
-      </h2>
-      <h1 class="display-6">
-        Bayformers vs scorpion king
-      </h1>
-      <div class="row mb-4">
-        <div class="col-md-6 order-2 order-md-1">
-          <p>
-            In live action movies there’s actually alot of animation specifically in the form of cg effects, the purpose of these should primarily be to not look out of place, and the best way to look outta place is to try to look “too real” because of the uncanny valley if you try to look real but fail it’ll stand out a lot more than if you went a little more absurd, as much as I think michael bays transformers were… not very good, the effects were amazing, I didn’t question the integration of these giant machines at all
-          </p>
-        </div>
-        <div class="col-md-6 order-1 order-md-2">
-          <iframe src="https://giphy.com/embed/l0ErH1kckJdn04Bry" class="w-100 h-100" allowFullScreen title="Transformers"></iframe>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 order-2 order-md-1">
-          <p>
-            But when you’re including your celebrity guest actor in a prime role of your movie, you’re gonna try to make it look as much like him as possible, leading to the scorpion king. Hes too close to real to think of as cartoony and not real enough to look natural, he’s made of plastic.
-          </p>
-        </div>
-        <div class="col-md-6 order-1 order-md-2">
-          <img src="images/scorpion-king-cgi.jpg" alt="scorpion king" class="img-fluid">
-        </div>
-      </div>
+  <header class="bg-dark text-white py-3">
+    <div class="container">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <a class="navbar-brand" href="#">Effictive Animation</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="animation.html">Traditional Animation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="games.html">Fighting Game animation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quotes">Current Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="liveaction.html">Live Actiion CGI Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Review/Suggestions</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </div>
-  </body>  
+  </header>
+  <body>
+    <h1>Welcome, to an essay about animation</h1>
+    <p1>
+      since animation has gotten so large its been used in many different mediums each with their own principles they need to follow to look good. And it's not just about looking pretty and pouring money in quality. you need to pay attention to your medium to make sure it works with it too! this is just a discussion about the principles that make up a couple of those mediums.
+    </p1>
+  </body> 
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+        <p>&copy; 2024 Effective Animation</p>
+        <div>
+            <a href="http://imdb.com" class="text-white mx-2">IMDB</a>
+            <a href="http://rottentomatoes.com" class="text-white mx-2">Rotten Tomatoes</a>
+            <a href="http://thescreendaily.com" class="text-white mx-2">The Screen Daily</a>
+        </div>
+    </body>  
+  </html>
 </html>
